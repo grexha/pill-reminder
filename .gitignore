@@ -9,3 +9,6 @@ site/
 
 # Local drafts, not part of the repository
 facebook-post.md
+
+# MCP server config with access keys - never commit
+.mcp.json
