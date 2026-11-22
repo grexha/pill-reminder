@@ -3,13 +3,13 @@
   "name": "Health Tracker",
   "after_dependencies": ["frontend", "lovelace", "mobile_app", "notify"],
   "categories": ["health_wellbeing", "messaging_notifications"],
-  "codeowners": ["@GuidoJeuken-6512"],
+  "codeowners": ["@grexha"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/GuidoJeuken-6512/pill-reminder",
+  "documentation": "https://github.com/grexha/pill-reminder",
   "integration_type": "service",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/GuidoJeuken-6512/pill-reminder/issues",
+  "issue_tracker": "https://github.com/grexha/pill-reminder/issues",
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

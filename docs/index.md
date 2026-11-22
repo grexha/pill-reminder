@@ -72,7 +72,7 @@ On a large screen the same sections sit side by side:
 
 1. **Install** with HACS: Health Tracker is in the HACS default store. Search for **Health Tracker**, install it and restart Home Assistant. Requires Home Assistant 2026.8 or newer.
 
-    [![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=GuidoJeuken-6512&repository=pill-reminder&category=integration)
+    [![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=grexha&repository=pill-reminder&category=integration)
 
 2. **Add a person**: *Settings → Devices & services → Add integration → Health Tracker*. Enter the name, the Home Assistant user and the phones (`notify.mobile_app_…`).
 3. **Add medications** in the dashboard (**Manage** tab) or on the integration entry: scheduled medication with intake times, or on-demand medication with optional limits.
@@ -86,6 +86,6 @@ Details for every step and setting are in the [user guide](user-guide.md).
 
 ## Help and feedback
 
-- [Questions and bug reports](https://github.com/GuidoJeuken-6512/pill-reminder/issues) on GitHub
+- [Questions and bug reports](https://github.com/grexha/pill-reminder/issues) on GitHub
 - [Changelog](changelog.md) – what changed in each release
 - [Troubleshooting](user-guide.md#15-troubleshooting) in the user guide

@@ -1,7 +1,7 @@
 name: Documentation
 
 # Build the documentation with Zensical and publish it to GitHub Pages
-# (https://guidojeuken-6512.github.io/pill-reminder/) on every push to main.
+# (https://grexha.github.io/pill-reminder/) on every push to main.
 on:
   push:
     branches:

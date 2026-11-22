@@ -42,7 +42,7 @@ Requires Home Assistant **2026.8** or newer.
 
 **HACS (recommended)**
 
-[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=GuidoJeuken-6512&repository=pill-reminder&category=integration)
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=grexha&repository=pill-reminder&category=integration)
 
 1. Click the button above, or open HACS and search for **Health Tracker** (it is in the HACS default store, no custom repository needed).
 2. Install **Health Tracker**.
@@ -299,7 +299,7 @@ The person can do all of this without administrator rights. Invalid input, for e
 
 **Own dashboards**
 
-The generated dashboard cannot be edited in the dashboard editor. To build your own, start from the examples in [`dashboards/`](https://github.com/GuidoJeuken-6512/pill-reminder/tree/main/dashboards):
+The generated dashboard cannot be edited in the dashboard editor. To build your own, start from the examples in [`dashboards/`](https://github.com/grexha/pill-reminder/tree/main/dashboards):
 
 - `pill_reminder.yaml` – standard cards only; exactly what the generated dashboard looks like for a person with one medication, weight and waist.
 - `pill_reminder_plus.yaml` – with [Mushroom](https://github.com/piitaya/lovelace-mushroom) and [ApexCharts](https://github.com/RomRider/apexcharts-card).
@@ -743,7 +743,7 @@ logger:
     custom_components.pill_reminder: debug
 ```
 
-When opening an issue, please attach the diagnostics and the relevant log lines: <https://github.com/GuidoJeuken-6512/pill-reminder/issues>
+When opening an issue, please attach the diagnostics and the relevant log lines: <https://github.com/grexha/pill-reminder/issues>
 
 ## 16. FAQ
 

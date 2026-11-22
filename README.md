@@ -3,19 +3,19 @@
 # Health Tracker
 
 [![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz/)
-[![Release](https://img.shields.io/github/v/release/GuidoJeuken-6512/pill-reminder)](https://github.com/GuidoJeuken-6512/pill-reminder/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/GuidoJeuken-6512/pill-reminder/total?label=downloads)](https://github.com/GuidoJeuken-6512/pill-reminder/releases)
+[![Release](https://img.shields.io/github/v/release/grexha/pill-reminder)](https://github.com/grexha/pill-reminder/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/grexha/pill-reminder/total?label=downloads)](https://github.com/grexha/pill-reminder/releases)
 ![Usage](https://img.shields.io/badge/dynamic/json?color=9932CC&logo=home-assistant&label=usage&suffix=%20installs&cacheSeconds=15600&url=https://analytics.home-assistant.io/custom_integrations.json&query=$.pill_reminder.total)
-[![Stars](https://img.shields.io/github/stars/GuidoJeuken-6512/pill-reminder?style=flat)](https://github.com/GuidoJeuken-6512/pill-reminder/stargazers)
-[![License](https://img.shields.io/github/license/GuidoJeuken-6512/pill-reminder.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-teal.svg)](https://guidojeuken-6512.github.io/pill-reminder/)
-[![Validate](https://github.com/GuidoJeuken-6512/pill-reminder/actions/workflows/validate.yaml/badge.svg)](https://github.com/GuidoJeuken-6512/pill-reminder/actions/workflows/validate.yaml)
+[![Stars](https://img.shields.io/github/stars/grexha/pill-reminder?style=flat)](https://github.com/grexha/pill-reminder/stargazers)
+[![License](https://img.shields.io/github/license/grexha/pill-reminder.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-teal.svg)](https://grexha.github.io/pill-reminder/)
+[![Validate](https://github.com/grexha/pill-reminder/actions/workflows/validate.yaml/badge.svg)](https://github.com/grexha/pill-reminder/actions/workflows/validate.yaml)
 
 Home Assistant integration that reminds people to take their medication and to enter their **weight**, **waist circumference** and **blood pressure**. It logs every intake (or missed intake), keeps the measurements and shows adherence, **BMI**, **waist-to-height ratio**, **blood pressure class** and the **trend** – one app, one dashboard.
 
 > **Formerly "Pill Reminder".** Since 0.7.0 the integration is called **Health Tracker**. Only the name changed: the domain stays `pill_reminder`, so updating keeps all persons, medications, doses, measurements, entity ids, actions (`pill_reminder.*`) and events (`pill_reminder_*`). Nothing needs to be set up again.
 
-📖 **[Documentation](https://guidojeuken-6512.github.io/pill-reminder/)** · **[User guide](https://guidojeuken-6512.github.io/pill-reminder/user-guide/)** – setup, every setting, the life of a dose, body measurements, dashboard, entities, actions, automation examples, troubleshooting.
+📖 **[Documentation](https://grexha.github.io/pill-reminder/)** · **[User guide](https://grexha.github.io/pill-reminder/user-guide/)** – setup, every setting, the life of a dose, body measurements, dashboard, entities, actions, automation examples, troubleshooting.
 
 ## Features
 
@@ -52,7 +52,7 @@ Home Assistant integration that reminds people to take their medication and to e
 
 **HACS** (recommended):
 
-[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=GuidoJeuken-6512&repository=pill-reminder&category=integration)
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=grexha&repository=pill-reminder&category=integration)
 
 or search for **Health Tracker** in HACS (it is in the HACS default store), install it and restart Home Assistant.
 **Manual**: copy `custom_components/pill_reminder` to `/config/custom_components/`, restart Home Assistant.

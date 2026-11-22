@@ -1,10 +1,22 @@
 # Changelog
 
-All releases of Health Tracker (formerly Pill Reminder). Each release is also on [GitHub](https://github.com/GuidoJeuken-6512/pill-reminder/releases).
+All releases of Health Tracker (formerly Pill Reminder). Each release is also on [GitHub](https://github.com/grexha/pill-reminder/releases).
+
+## v1.0.1 – New home on GitHub
+
+*Released 2026-11-22* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v1.0.1)
+
+### New home on GitHub
+
+The repository moved to **https://github.com/grexha/pill-reminder** and the documentation to **https://grexha.github.io/pill-reminder/**.
+
+Nothing changes for you: HACS follows the move automatically, updates keep coming as before, and all persons, medications, measurements, entities and automations stay as they are. Old GitHub links redirect to the new address.
+
+- Links in the integration (documentation, issue tracker), the README and the documentation point to the new address.
 
 ## v1.0.0 – First stable release
 
-*Released 2026-11-21* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v1.0.0)
+*Released 2026-11-21* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v1.0.0)
 
 ### Health Tracker 1.0 – first stable release
 
@@ -21,14 +33,14 @@ Health Tracker (formerly Pill Reminder) reaches 1.0. The configuration, entity i
 
 #### New since 0.7.1
 
-- **Documentation site:** https://guidojeuken-6512.github.io/pill-reminder/ – with screenshots, user guide and changelog.
+- **Documentation site:** https://grexha.github.io/pill-reminder/ – with screenshots, user guide and changelog.
 - Health Tracker is in the **HACS default store**: search for *Health Tracker* in HACS, no custom repository needed.
 
 Requires Home Assistant 2026.8 or newer.
 
 ## v0.7.1 – Dashboard made for phones
 
-*Released 2026-11-21* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.7.1)
+*Released 2026-11-21* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.7.1)
 
 ### Dashboard made for phones
 
@@ -46,7 +58,7 @@ No configuration changes; the dashboard updates itself after the update.
 
 ## v0.7.0 – Health Tracker: on-demand medication
 
-*Released 2026-11-20* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.7.0)
+*Released 2026-11-20* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.7.0)
 
 ### Health Tracker (formerly Pill Reminder)
 
@@ -64,11 +76,11 @@ For medication taken **as needed**, e.g. for migraine – not *whether* it was t
 - Actions: `log_intake` (with `taken_at` to add a forgotten intake), `delete_intake`, `get_intakes`, `export_intakes` (CSV). `mark_taken` also works.
 - Events: `pill_reminder_intake_taken`, `pill_reminder_intake_limit_reached` (shown in the logbook).
 
-Details: [user guide → On-demand medication](https://github.com/GuidoJeuken-6512/pill-reminder/blob/main/docs/user-guide.md#on-demand-medication-as-needed)
+Details: [user guide → On-demand medication](https://github.com/grexha/pill-reminder/blob/main/docs/user-guide.md#on-demand-medication-as-needed)
 
 ## v0.6.0 – Measurements in the dashboard
 
-*Released 2026-11-09* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.6.0)
+*Released 2026-11-09* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.6.0)
 
 ### Add and remove measurements in the dashboard
 
@@ -79,7 +91,7 @@ Details: [user guide → On-demand medication](https://github.com/GuidoJeuken-65
 
 ## v0.5.0 – Blood pressure
 
-*Released 2026-11-09* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.5.0)
+*Released 2026-11-09* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.5.0)
 
 ### Blood pressure and save buttons
 
@@ -95,7 +107,7 @@ Existing weight and waist values and entity ids stay unchanged. Diagnostics cont
 
 ## v0.4.0 – Body measurements
 
-*Released 2026-11-06* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.4.0)
+*Released 2026-11-06* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.4.0)
 
 ### Body measurements – one app for medication and health
 
@@ -108,13 +120,13 @@ Pill Reminder now also tracks **weight** and **waist circumference**.
 - Dashboard renamed to **Health** (`/pill-reminder` stays): per person a medication, a **Body** and a **Manage** tab.
 - New actions: `add_measurement` (e.g. from a smart scale), `delete_measurement`, `get_measurements`, `export_measurements`.
 - Diagnostics contain no measured values and no height.
-- New [user guide](https://github.com/GuidoJeuken-6512/pill-reminder/blob/main/docs/user-guide.md).
+- New [user guide](https://github.com/grexha/pill-reminder/blob/main/docs/user-guide.md).
 
 Existing persons keep working unchanged (medication only); add measurements via **Add measurement**.
 
 ## v0.3.1 – privacy fix for diagnostics
 
-*Released 2026-11-04* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.3.1)
+*Released 2026-11-04* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.3.1)
 
 #### Fixed
 - Diagnostics no longer contain personal or health data: person name, config entry and medication titles, `unique_id`, Home Assistant user ids, notify services, medication names, dosages and `medication_name` are redacted. Open doses are redacted as well, and the medications block is keyed by id only.
@@ -123,7 +135,7 @@ Diagnostics files are often shared in public issues – please update.
 
 ## v0.3.0 – first public release
 
-*Released 2026-11-04* · [GitHub release](https://github.com/GuidoJeuken-6512/pill-reminder/releases/tag/v0.3.0)
+*Released 2026-11-04* · [GitHub release](https://github.com/grexha/pill-reminder/releases/tag/v0.3.0)
 
 First public release of **Pill Reminder** for Home Assistant (2026.8 or newer).
 
@@ -137,4 +149,4 @@ First public release of **Pill Reminder** for Home Assistant (2026.8 or newer).
 - English and German translations
 
 #### Installation
-HACS → ⋮ → Custom repositories → `https://github.com/GuidoJeuken-6512/pill-reminder` (Integration) → install **Pill Reminder** → restart Home Assistant.
+HACS → ⋮ → Custom repositories → `https://github.com/grexha/pill-reminder` (Integration) → install **Pill Reminder** → restart Home Assistant.
